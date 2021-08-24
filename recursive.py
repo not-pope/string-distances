@@ -8,12 +8,12 @@ def lev_recursive(a,b):
   if j==0:
     return i
 
-  flagy=1 if a[0]!=b[0] else 0
+  indicator=1 if a[0]!=b[0] else 0
   
   return min(
     lev_recursive(a[1:],b)+1,
     lev_recursive(a,b[1:])+1,
-    lev_recursive(a[1:],b[1:])+flagy
+    lev_recursive(a[1:],b[1:])+indicator
   )
 
 print(lev_recursive('kitten','sitting'))
