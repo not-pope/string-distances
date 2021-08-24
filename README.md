@@ -15,9 +15,9 @@ The distance between two strings *a* and *b* is given by  ![distance](/images/di
 
 In the 'otherwise' part, last segment of min function, 1 is the *indicator* function equal to 0 if a[i]==b[j] and 1 otherwise (I used brackets notation but you would use subscript for that..). Also, by |*a*| we denote the legnt of the string *a*.
 
-On the internet, there are many 'versions' (read notations of this algorithm) and in this one, when you see ![notation](/images/notation.svg) you should think of it as levenshtein distance betweeb string prefixes (or substrings..), specifically first *i* characters of string *a*, and first *j* characters of string *b*.
+On the internet, there are many 'versions' (read _notations_ of this algorithm) and in this one, when you see ![notation](/images/notation.svg) you should think of it as levenshtein distance between string prefixes (or substrings..), specifically first *i* characters of string *a*, and first *j* characters of string *b*.
 
 I'll use zero-based indexing for strings.
 
-The algorithms (currently just one :( ) are implemented following greate guide from https://www.baeldung.com/cs/levenshtein-distance-computation .
+The algorithms (currently just one :( ) are implemented following greate guide at https://www.baeldung.com/cs/levenshtein-distance-computation .
 
