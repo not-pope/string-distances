@@ -11,7 +11,9 @@ What are allowed *edits*?
 
 Other versions of this problems (strings distance) have different constrains on what edits are.
 
-The distance between two strings *a* and *b* is given by  ![distance](/images/distance.svg) where ![function](/images/levenshtein.svg) 
+The distance between two strings *a* and *b* is given by  ![distance](/images/distance.svg) where
+
+![function](/images/levenshtein.svg) 
 
 In the 'otherwise' part, last segment of min function, 1 is the *indicator* function equal to 0 if a[i]==b[j] and 1 otherwise (I used brackets notation but you would use subscript for that..). Also, by |*a*| we denote the legnt of the string *a*.
 
